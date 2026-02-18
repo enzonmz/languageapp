@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - use_super_parameters
+    - unnecessary_this
+    - prefer_single_quotes
+    - sort_constructors_first
+    - sort_pub_dependencies
+    
+analyzer:
+  exclude:
+    - build/**
+    - lib/generated_plugin_registrant.dart

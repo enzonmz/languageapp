@@ -1,0 +1,58 @@
+name: language_learning_app
+description: Мобильное приложение для изучения иностранных языков
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # Core
+  provider: ^6.0.5
+  get: ^4.6.5
+  shared_preferences: ^2.2.0
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  
+  # Database
+  floor: ^1.4.2
+  supabase_flutter: ^2.3.0
+  
+  # Auth & Network
+  dio: ^5.3.3
+  dio_cache_interceptor: ^3.4.2
+  
+  # Notifications
+  flutter_local_notifications: ^16.2.0
+  
+  # Audio
+  just_audio: ^0.10.5
+  audio_session: ^0.2.0
+  
+  # UI & Utils
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  confetti: ^0.7.0
+  uuid: ^4.2.1
+  connectivity_plus: ^5.0.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.6
+  floor_generator: ^1.4.2
+  lint: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  generate: true
